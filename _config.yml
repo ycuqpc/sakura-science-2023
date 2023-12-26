@@ -1,2 +1,7 @@
-# theme: owner/name --> Don't forget to remove/comment the gem-based theme option
+# https://github.com/jeffreytse/jekyll-theme-yat/?tab=readme-ov-file#remote-theme-method-with-github-pages
 remote_theme: "jeffreytse/jekyll-theme-yat"
+
+# https://github.com/jeffreytse/jekyll-theme-yat/blob/master/_config.yml
+title: Title
+email: ohno.github@gmail.com
+author: Shuhei Ohno
