@@ -14,10 +14,8 @@ defaults:
     subheading: "subheading subheading subheading"
     # banner: "Your image url"
 
-header_pages:
-  - index.html#URL
-  - index.html#Themes
-  - index.html#Markdown
+header_pages: []
+translate_langs: []
 
 banner:
   # video: null             # Video banner source
