@@ -5,5 +5,20 @@ remote_theme: "jeffreytse/jekyll-theme-yat"
 title: Title
 email: ohno.github@gmail.com
 author: Shuhei Ohno
+copyright: "© 2023-{currentYear} {author}"
+
+description: >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+home:
+  heading: "HEADING HEADING HEADING"
+  subheading: "subheading subheading subheading"
+  # banner: "Your image url"
 
 favicon: "./favicon.svg"
+sitemap: false
+night_mode: "manual"
+theme_color: "#95C8BF"
+brand_color: "#3FBCBC"
