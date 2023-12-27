@@ -7,9 +7,9 @@
 
 | Example | GitHub |
 | ------- | ------ |
-| [YAT](https://jeffreytse.github.io/jekyll-theme-yat/) (Active)      | [🔗](https://github.com/jeffreytse/jekyll-theme-yat/)      |
+| [YAT](https://jeffreytse.github.io/jekyll-theme-yat/)               | [🔗](https://github.com/jeffreytse/jekyll-theme-yat/)      |
 | [cayman](https://pages-themes.github.io/cayman/)                    | [🔗](https://github.com/pages-themes/cayman)               |
-| [hanuman](https://samanyougarg.github.io/hanuman/)                  | [🔗](https://github.com/samanyougarg/hanuman/)             |
+| [hanuman](https://samanyougarg.github.io/hanuman/) (Active)         | [🔗](https://github.com/samanyougarg/hanuman/)             |
 | [agency-jekyll-theme](https://y7kim.github.io/agency-jekyll-theme/) | [🔗](https://github.com/y7kim/agency-jekyll-theme)         |
 | [jekyll-for-everyone](https://jekyll-for-everyone.github.io/)       | [🔗](https://github.com/melvinchng/jekyll-for-everyone)    |
 | [Prologue](https://chrisbobbe.github.io/jekyll-theme-prologue/)     | [🔗](https://github.com/chrisbobbe/jekyll-theme-prologue/) |
