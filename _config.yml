@@ -6,20 +6,12 @@ title: Title
 email: ohno.github@gmail.com
 author: Shuhei Ohno
 copyright: "© 2023-{currentYear} {author}"
-
-description: >-
-  description description description description description 
-  description description description description description 
-  description description description description description
+description: "description description description description description description description description description description"
 
 home:
   heading: "HEADING HEADING HEADING"
   subheading: "subheading subheading subheading"
-  # banner: "Your image url"
+  banner: "#95C8BF"
 
-favicon: "./favicon.svg"
-sitemap: false
 night_mode: "manual"
-
-banner:
-  background: "#95C8BF"
+favicon: "./favicon.svg"

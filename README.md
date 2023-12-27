@@ -6,6 +6,7 @@
 # Themes
 
 | Example | GitHub |
+| ------- | ------ |
 | [YAT](https://jeffreytse.github.io/jekyll-theme-yat/) (Active)      | [🔗](https://github.com/jeffreytse/jekyll-theme-yat/)      |
 | [cayman](https://pages-themes.github.io/cayman/)                    | [🔗](https://github.com/pages-themes/cayman)               |
 | [hanuman](https://samanyougarg.github.io/hanuman/)                  | [🔗](https://github.com/samanyougarg/hanuman/)             |
