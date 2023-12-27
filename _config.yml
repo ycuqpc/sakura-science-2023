@@ -7,15 +7,14 @@ email: ohno.github@gmail.com
 author: Shuhei Ohno
 copyright: "© 2023-{currentYear} {author}"
 description: "description description description description description description description description description description"
+favicon: "./favicon.svg"
+night_mode: "manual"
 
 defaults:
   home:
     heading: "HEADING HEADING HEADING"
     subheading: "subheading subheading subheading"
     # banner: "Your image url"
-
-header_pages: []
-translate_langs: []
 
 banner:
   # video: null             # Video banner source
@@ -30,5 +29,27 @@ banner:
   # heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
   # subheading_style: null  # Custom subheading style (e.g. color: gold)
 
-night_mode: "manual"
-favicon: "./favicon.svg"
+# header_pages: []
+# translate_langs: []
+translate_langs:
+  - lang: ja
+    img: https://cdn.countryflags.com/thumbs/japan/flag-400.png
+    text: Japanese
+
+  - lang: en
+    img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
+    text: English
+
+  - lang: fr
+    img: https://cdn.countryflags.com/thumbs/france/flag-400.png
+    text: French
+
+toc:
+ min_level: 1
+ max_level: 1
+ list_class: ""
+ list_class: page-link
+ sublist_class: ""
+
+plugins:
+	- jekyll-toc
