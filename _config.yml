@@ -14,10 +14,10 @@ defaults:
     subheading: "subheading subheading subheading"
     # banner: "Your image url"
 
-header_pages:
-  - URL
-  - Themes
-  - Markdown
+# header_pages:
+#   - URL
+#   - Themes
+#   - Markdown
 
 banner:
   # video: null             # Video banner source
