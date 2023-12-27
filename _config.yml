@@ -5,3 +5,5 @@ remote_theme: "jeffreytse/jekyll-theme-yat"
 title: Title
 email: ohno.github@gmail.com
 author: Shuhei Ohno
+
+favicon: "./favicon.svg"
