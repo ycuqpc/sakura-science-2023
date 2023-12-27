@@ -34,3 +34,5 @@ text text text text text text text text text text text text text text text text 
 ```julia:example
 println("Hello World!")
 ```
+
+![](./favicon.svg)
