@@ -81,6 +81,8 @@
     {% assign currLevel = 0 %}
     {% assign lastLevel = 0 %}
 
+    {% capture listModifier %}{% if orderedList %}ol{% else %}ul{% endif %}{% endcapture %}
+
     {% for node in nodes %}
         {% if node == "" %}
             {% continue %}
@@ -131,7 +133,7 @@
                 {% capture anchorAttributes %}{{ anchorAttributes }} class="{{ include.anchor_class | split: '.' | join: ' ' }}"{% endcapture %}
             {% endif %}
 
-            {% capture listItem %}<a{{ anchorAttributes }}>{{ anchorBody }}</a>{% endcapture %}
+            {% capture listItem %}<a{{ anchorAttributes }}>{{ anchorBody }}aaa</a>{% endcapture %}
         {% elsif skipNoIDs == true %}
             {% continue %}
         {% else %}
@@ -139,15 +141,20 @@
         {% endif %}
 
         {% if currLevel > lastLevel and flatToc == false %}
+            {% capture jekyll_toc %}{{ jekyll_toc }}<{{ listModifier }}{{ subMenuClass }}>{% endcapture %}
         {% elsif currLevel < lastLevel and flatToc == false %}
             {% assign repeatCount = lastLevel | minus: currLevel %}
 
             {% for i in (1..repeatCount) %}
+                {% capture jekyll_toc %}{{ jekyll_toc }}</li></{{ listModifier }}>{% endcapture %}
             {% endfor %}
 
+            {% capture jekyll_toc %}{{ jekyll_toc }}</li>{% endcapture %}
         {% else %}
+            {% capture jekyll_toc %}{{ jekyll_toc }}</li>{% endcapture %}
         {% endif %}
 
+        {% capture jekyll_toc %}{{ jekyll_toc }}<li{{ listItemClass }}>{{ listItem }}{% endcapture %}
 
         {% assign lastLevel = currLevel %}
         {% assign firstHeader = false %}
@@ -161,6 +168,7 @@
     {% endif %}
 
     {% for i in (1..repeatCount) %}
+        {% capture jekyll_toc %}{{ jekyll_toc }}</li></{{ listModifier }}>{% endcapture %}
     {% endfor %}
 
     {% if jekyll_toc != '' %}
@@ -175,6 +183,7 @@
 
         {% if rootAttributes %}
             {% assign nodes = jekyll_toc | split: '>' %}
+            {% capture jekyll_toc %}<{{ listModifier }}{{ rootAttributes }}>{{ nodes | shift | join: '>' }}>{% endcapture %}
         {% endif %}
     {% endif %}
 {% endcapture %}{% assign tocWorkspace = '' %}{{ deprecation_warnings }}{{ jekyll_toc -}}
