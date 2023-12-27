@@ -15,9 +15,9 @@ defaults:
     # banner: "Your image url"
 
 header_pages:
-  - [URL](index.html#URL)
-  - [Themes](index.html#Themes)
-  - [Markdown](index.html#Markdown)
+  - index.html#URL
+  - index.html#Themes
+  - index.html#Markdown
 
 banner:
   # video: null             # Video banner source
@@ -34,7 +34,3 @@ banner:
 
 night_mode: "manual"
 favicon: "./favicon.svg"
-
-selection:
-   color: "#ff00ff"
-   background_color: "yellow"
