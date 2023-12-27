@@ -1,9 +1,3 @@
----
-layout: post
-title: My first post
-sidebar: []
----
-
 # URL
 
 - Pages  [https://ohno.github.io/jekyll-test/](https://ohno.github.io/jekyll-test/)
