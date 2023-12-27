@@ -1,36 +1,40 @@
 # https://github.com/jeffreytse/jekyll-theme-yat/?tab=readme-ov-file#remote-theme-method-with-github-pages
-remote_theme: "samanyougarg/hanuman"
+remote_theme: "jeffreytse/jekyll-theme-yat"
 
 # https://github.com/jeffreytse/jekyll-theme-yat/blob/master/_config.yml
 title: Title
-# email: ohno.github@gmail.com
-# author: Shuhei Ohno
-# copyright: "© 2023-{currentYear} {author}"
-# description: "description description description description description description description description description description"
+email: ohno.github@gmail.com
+author: Shuhei Ohno
+copyright: "© 2023-{currentYear} {author}"
+description: "description description description description description description description description description description"
 
-# defaults:
-#   home:
-#     heading: "HEADING HEADING HEADING"
-#     subheading: "subheading subheading subheading"
-#     # banner: "Your image url"
+defaults:
+  home:
+    heading: "HEADING HEADING HEADING"
+    subheading: "subheading subheading subheading"
+    # banner: "Your image url"
 
-# # header_pages:
-# #   - URL
-# #   - Themes
-# #   - Markdown
+header_pages:
+  - [URL](index.html#URL)
+  - [Themes](index.html#Themes)
+  - [Markdown](index.html#Markdown)
 
-# banner:
-#   # video: null             # Video banner source
-#   # loop: true              # Video loop
-#   # volume: 0               # Video volume (100% is 1.0)
-#   # start_at: 0             # Video start time
-#   image: "./home.png"     # Image banner source
-#   # opacity: 1.0            # Banner opacity (100% is 1.0)
-#   background: "#95C8BF"   # Banner background (Could be a image)
-#   # height: "640px"         # Banner default height
-#   # min_height: null        # Banner minimum height
-#   # heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
-#   # subheading_style: null  # Custom subheading style (e.g. color: gold)
+banner:
+  # video: null             # Video banner source
+  # loop: true              # Video loop
+  # volume: 0               # Video volume (100% is 1.0)
+  # start_at: 0             # Video start time
+  image: "./home.png"     # Image banner source
+  # opacity: 1.0            # Banner opacity (100% is 1.0)
+  # background: "#95C8BF"   # Banner background (Could be a image)
+  # height: "640px"         # Banner default height
+  # min_height: null        # Banner minimum height
+  # heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
+  # subheading_style: null  # Custom subheading style (e.g. color: gold)
 
-# night_mode: "manual"
-# favicon: "./favicon.svg"
+night_mode: "manual"
+favicon: "./favicon.svg"
+
+selection:
+   color: "#ff00ff"
+   background_color: "yellow"
