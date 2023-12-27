@@ -7,7 +7,7 @@ email: ohno.github@gmail.com
 author: Shuhei Ohno
 copyright: "© 2023-{currentYear} {author}"
 description: "description description description description description description description description description description"
-favicon: "./favicon.svg"
+favicon: "./assets/images/favicon.svg"
 night_mode: "manual"
 
 defaults:
@@ -21,7 +21,7 @@ banner:
   # loop: true              # Video loop
   # volume: 0               # Video volume (100% is 1.0)
   # start_at: 0             # Video start time
-  image: "./home.png"     # Image banner source
+  image: "./assets/images/home.png" # Image banner source
   # opacity: 1.0            # Banner opacity (100% is 1.0)
   # background: "#95C8BF"   # Banner background (Could be a image)
   # height: "640px"         # Banner default height
@@ -35,6 +35,10 @@ translate_langs:
   - lang: ja
     img: https://cdn.countryflags.com/thumbs/japan/flag-400.png
     text: Japanese
+
+  - lang: th
+    img: https://cdn.countryflags.com/thumbs/thailand/flag-400.png
+    text: Thai
 
   - lang: en
     img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png

@@ -1,0 +1,16 @@
+---
+---
+@import "main";
+
+.trigger {
+    ul {
+        display: inline-flex;
+        list-style-type: none;
+        li {
+            color: $brand-color;
+            display: inline-flex;
+        }
+    }
+}
+
+
