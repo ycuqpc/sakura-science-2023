@@ -35,7 +35,7 @@
           <div class="trigger">
             <!-- by @ohno -->
             <!-- https://github.com/allejo/jekyll-toc/blob/master/_includes/toc.html -->
-            {% include toc.html html=content h_min=1 h_max=1 item_class='page-link' %}
+            {% include_relative toc.html html=content h_min=1 h_max=1 item_class='page-link' %}
             <!-- {%- for path in page_paths -%} -->
               <!-- {%- assign my_page = site.pages | where: "path", path | first -%} -->
               <!-- {%- if my_page.title -%} -->
