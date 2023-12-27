@@ -43,13 +43,3 @@ translate_langs:
   - lang: fr
     img: https://cdn.countryflags.com/thumbs/france/flag-400.png
     text: French
-
-toc:
- min_level: 1
- max_level: 1
- list_class: ""
- list_class: page-link
- sublist_class: ""
-
-plugins:
-	- jekyll-toc
