@@ -1,7 +1,4 @@
 ---
-layout: post
-title: Welcome to Jekyll!
-subheading: hello world!
 sidebar: []
 ---
 
