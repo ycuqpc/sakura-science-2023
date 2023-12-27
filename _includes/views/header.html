@@ -36,7 +36,7 @@
             <!-- by @ohno -->
             {%- for id in page.id -%}
               {%- if id -%}
-              <a class="page-link" href="{{ my_page.url | relative_url }}">{{ id | upcase | escape }}</a>
+              <a class="page-link" href="{{ page.url | relative_url }}">{{ id | upcase | escape }}</a>
               {%- endif -%}
             {%- endfor -%}
             <!-- {%- for path in page_paths -%} -->
