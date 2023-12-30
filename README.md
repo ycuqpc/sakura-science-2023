@@ -36,4 +36,4 @@ text text text text text text text text text text text text text text text text 
 println("Hello World!")
 ```
 
-![](./favicon.svg)
+![](assets/images/favicon.svg)
