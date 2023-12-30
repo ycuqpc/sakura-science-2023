@@ -14,7 +14,7 @@ defaults:
   home:
     heading: "HEADING HEADING HEADING"
     subheading: "subheading subheading subheading"
-    banner: "/assets/images/home.png"
+    banner: "./assets/images/home.png"
 
 banner:
   # video: null             # Video banner source
