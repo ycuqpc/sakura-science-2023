@@ -135,7 +135,7 @@
             {% endif %}
 
             <!-- by @ohno -->
-            {% capture listItem %}<a{{ listItemClass }}{{ anchorAttributes }}>{{ anchorBody }}</a>{% endcapture %}
+            {% capture listItem %}<a{{ anchorAttributes }}>{{ anchorBody }}aaa</a>{% endcapture %}
         {% elsif skipNoIDs == true %}
             {% continue %}
         {% else %}
