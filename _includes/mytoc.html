@@ -131,12 +131,13 @@
             {% capture anchorAttributes %} href="{% if baseURL %}{{ baseURL }}{% endif %}#{{ htmlID }}"{% endcapture %}
 
             {% if include.anchor_class %}
-                {% capture anchorAttributes %}{{ anchorAttributes }} class="{{ include.anchor_class | split: '.' | join: ' ' }}"{% endcapture %}
+                <!-- by @ohno -->
+                {% capture anchorAttributes %}{{ anchorAttributes }} class="{{ listItemClass }} {{ include.anchor_class | split: '.' | join: ' ' }}"{% endcapture %}
+                <!-- {% capture anchorAttributes %}{{ anchorAttributes }} class="{{ include.anchor_class | split: '.' | join: ' ' }}"{% endcapture %} -->
             {% endif %}
 
             <!-- by @ohno -->
-            {% capture listItem %}<a{{ listItemClass }}{{ anchorAttributes }}>{{ anchorBody }}aaa</a>{% endcapture %}
-            <!-- {% capture listItem %}<a{{ anchorAttributes }}>{{ anchorBody }}aaa</a>{% endcapture %} -->
+            {% capture listItem %}<a{{ anchorAttributes }}>{{ anchorBody }}aaa</a>{% endcapture %}
         {% elsif skipNoIDs == true %}
             {% continue %}
         {% else %}
