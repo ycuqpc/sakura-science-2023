@@ -14,14 +14,14 @@ defaults:
   home:
     heading: "HEADING HEADING HEADING"
     subheading: "subheading subheading subheading"
-    # banner: "Your image url"
+    banner: "/assets/images/home.png"
 
 banner:
   # video: null             # Video banner source
   # loop: true              # Video loop
   # volume: 0               # Video volume (100% is 1.0)
   # start_at: 0             # Video start time
-  image: "/assets/images/home.png" # Image banner source
+  # image: "Your image url" # Image banner source
   # opacity: 1.0            # Banner opacity (100% is 1.0)
   # background: "#95C8BF"   # Banner background (Could be a image)
   # height: "640px"         # Banner default height
