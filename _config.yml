@@ -9,6 +9,7 @@ copyright: "© 2023-{currentYear} {author}"
 description: "description description description description description description description description description description"
 favicon: "./favicon.svg"
 night_mode: "manual"
+brand_color: "#EA5A47"
 
 defaults:
   home:
@@ -28,6 +29,12 @@ banner:
   # min_height: null        # Banner minimum height
   # heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
   # subheading_style: null  # Custom subheading style (e.g. color: gold)
+
+code_badge:
+  enabled: "true"
+  color: "#fff"
+  background_color: "#EA5A47"
+  text_transform: "uppercase"  # ("uppercase", "lowercase", "capitalize")
 
 # header_pages: []
 # translate_langs: []
