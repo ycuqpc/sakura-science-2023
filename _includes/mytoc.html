@@ -130,8 +130,11 @@
         {% if htmlID %}
             {% capture anchorAttributes %} href="{% if baseURL %}{{ baseURL }}{% endif %}#{{ htmlID }}"{% endcapture %}
 
+            <!-- by @ohno --> {% if include.item_class and include.item_class != blank %}
+                <!-- by @ohno --> {% capture anchorAttributes %}{{ anchorAttributes }} {{ listItemClass }}{% endcapture %}
+            <!-- by @ohno --> {% endif %}
+
             {% if include.anchor_class %}
-                <!-- by @ohno --> {% capture anchorAttributes %}{{ anchorAttributes }} class="{{ listItemClass }} {{ include.anchor_class | split: '.' | join: ' ' }}"{% endcapture %}
                 <!-- by @ohno --> {% comment %} {% capture anchorAttributes %}{{ anchorAttributes }} class="{{ include.anchor_class | split: '.' | join: ' ' }}"{% endcapture %} {% endcomment %}
             {% endif %}
 
