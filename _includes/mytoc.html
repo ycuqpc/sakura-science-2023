@@ -134,11 +134,8 @@
                 <!-- by @ohno --> {% comment %} {% capture anchorAttributes %}{{ anchorAttributes }} class="{{ include.anchor_class | split: '.' | join: ' ' }}"{% endcapture %} {% endcomment %}
             {% endif %}
 
-            <!-- by @ohno --> {% if include.item_class and include.item_class != blank %}
-            <!-- by @ohno -->     {% capture anchorAttributes %}{{ anchorAttributes }} class="{{ include.item_class | replace: '%level%', currLevel | split: '.' | join: ' ' }}"{% endcapture %}
-            <!-- by @ohno --> {% endif %}
-
-            {% capture listItem %}<a{{ anchorAttributes }}>{{ anchorBody }}</a>{% endcapture %}
+            <!-- by @ohno --> {% comment %} {% capture listItem %}<a{{ anchorAttributes }}>{{ anchorBody }}</a>{% endcapture %} {% endcomment %}
+            <!-- by @ohno --> {% capture listItem %}<a{{ anchorAttributes }}{{ capture listItemClass }}>{{ anchorBody }}</a>{% endcapture %}
         {% elsif skipNoIDs == true %}
             {% continue %}
         {% else %}
