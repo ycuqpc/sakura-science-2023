@@ -144,24 +144,19 @@
 
         {% if currLevel > lastLevel and flatToc == false %}
             <!-- by @ohno -->
-            <!-- {% capture jekyll_toc %}{{ jekyll_toc }}<{{ listModifier }}{{ subMenuClass }}>{% endcapture %} -->
         {% elsif currLevel < lastLevel and flatToc == false %}
             {% assign repeatCount = lastLevel | minus: currLevel %}
 
             {% for i in (1..repeatCount) %}
                 <!-- by @ohno -->
-                <!-- {% capture jekyll_toc %}{{ jekyll_toc }}</li></{{ listModifier }}>{% endcapture %} -->
             {% endfor %}
 
             <!-- by @ohno -->
-            <!-- {% capture jekyll_toc %}{{ jekyll_toc }}</li>{% endcapture %} -->
         {% else %}
             <!-- by @ohno -->
-            <!-- {% capture jekyll_toc %}{{ jekyll_toc }}</li>{% endcapture %} -->
         {% endif %}
 
         <!-- by @ohno -->
-        <!-- {% capture jekyll_toc %}{{ jekyll_toc }}<li{{ listItemClass }}>{{ listItem }}{% endcapture %} -->
 
         {% assign lastLevel = currLevel %}
         {% assign firstHeader = false %}
@@ -176,7 +171,6 @@
 
     {% for i in (1..repeatCount) %}
         <!-- by @ohno -->
-        <!-- {% capture jekyll_toc %}{{ jekyll_toc }}</li></{{ listModifier }}>{% endcapture %} -->
     {% endfor %}
 
     {% if jekyll_toc != '' %}
@@ -192,7 +186,6 @@
         {% if rootAttributes %}
             {% assign nodes = jekyll_toc | split: '>' %}
             <!-- by @ohno -->
-            <!-- {% capture jekyll_toc %}<{{ listModifier }}{{ rootAttributes }}>{{ nodes | shift | join: '>' }}>{% endcapture %} -->
         {% endif %}
     {% endif %}
 {% endcapture %}{% assign tocWorkspace = '' %}{{ deprecation_warnings }}{{ jekyll_toc -}}
