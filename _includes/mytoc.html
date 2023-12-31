@@ -135,12 +135,12 @@
             {% endif %}
 
             <!-- by @ohno --> {% comment %} {% capture listItem %}<a{{ anchorAttributes }}>{{ anchorBody }}</a>{% endcapture %} {% endcomment %}
-            <!-- by @ohno --> {% capture listItem %}<a{{ anchorAttributes }}{{ capture listItemClass }}>{{ anchorBody }}</a>{% endcapture %}
+            <!-- by @ohno --> {% capture listItem %}<a{{ anchorAttributes }}{{ listItemClass }}>{{ anchorBody }}</a>{% endcapture %}
         {% elsif skipNoIDs == true %}
             {% continue %}
         {% else %}
             <!-- by @ohno --> {% comment %} {% capture listItem %}{{ anchorBody }}{% endcapture %} {% endcomment %}
-            <!-- by @ohno --> {% capture listItem %}<a{{ anchorAttributes }}{{ capture listItemClass }}>{{ anchorBody }}</a>{% endcapture %}
+            <!-- by @ohno --> {% capture listItem %}<a{{ anchorAttributes }}{{ listItemClass }}>{{ anchorBody }}</a>{% endcapture %}
         {% endif %}
 
         {% if currLevel > lastLevel and flatToc == false %}
