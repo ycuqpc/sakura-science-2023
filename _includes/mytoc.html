@@ -130,19 +130,20 @@
         {% if htmlID %}
             {% capture anchorAttributes %} href="{% if baseURL %}{{ baseURL }}{% endif %}#{{ htmlID }}"{% endcapture %}
 
-            <!-- by @ohno --> {% if include.item_class and include.item_class != blank %}
-                <!-- by @ohno --> {% capture anchorAttributes %}{{ anchorAttributes }} {{ listItemClass }}{% endcapture %}
-            <!-- by @ohno --> {% endif %}
-
             {% if include.anchor_class %}
                 <!-- by @ohno --> {% comment %} {% capture anchorAttributes %}{{ anchorAttributes }} class="{{ include.anchor_class | split: '.' | join: ' ' }}"{% endcapture %} {% endcomment %}
             {% endif %}
+
+            <!-- by @ohno --> {% if include.item_class and include.item_class != blank %}
+            <!-- by @ohno -->     {% capture anchorAttributes %}{{ anchorAttributes }} class="{{ include.item_class | replace: '%level%', currLevel | split: '.' | join: ' ' }}"{% endcapture %}
+            <!-- by @ohno --> {% endif %}
 
             {% capture listItem %}<a{{ anchorAttributes }}>{{ anchorBody }}</a>{% endcapture %}
         {% elsif skipNoIDs == true %}
             {% continue %}
         {% else %}
-            {% capture listItem %}{{ anchorBody }}{% endcapture %}
+            <!-- by @ohno --> {% comment %} {% capture listItem %}{{ anchorBody }}{% endcapture %} {% endcomment %}
+            <!-- by @ohno --> {% capture listItem %}<a{{ anchorAttributes }}>{{ anchorBody }}</a>{% endcapture %}
         {% endif %}
 
         {% if currLevel > lastLevel and flatToc == false %}
@@ -189,7 +190,7 @@
 
         {% if rootAttributes %}
             {% assign nodes = jekyll_toc | split: '>' %}
-            <!-- by @ohno --> {% capture jekyll_toc %}<{{ listModifier }}{{ rootAttributes }}>{{ nodes | shift | join: '>' }}>{% endcapture %}
+            <!-- by @ohno --> {% comment %} {% capture jekyll_toc %}<{{ listModifier }}{{ rootAttributes }}>{{ nodes | shift | join: '>' }}>{% endcapture %} {% endcomment %}
         {% endif %}
     {% endif %}
 {% endcapture %}{% assign tocWorkspace = '' %}{{ deprecation_warnings }}{{ jekyll_toc -}}
