@@ -1,7 +1,7 @@
 # URL
 
-- Pages  [https://ohno.github.io/jekyll-test/](https://ohno.github.io/jekyll-test/)
-- GitHub [https://github.com/ohno/jekyll-test](https://github.com/ohno/jekyll-test)
+- Pages  [https://ohno.github.io/jekyll-example/](https://ohno.github.io/jekyll-example/)
+- GitHub [https://github.com/ohno/jekyll-example/](https://github.com/ohno/jekyll-example)
 
 # Themes
 
