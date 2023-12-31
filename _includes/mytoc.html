@@ -131,11 +131,11 @@
             {% capture anchorAttributes %} href="{% if baseURL %}{{ baseURL }}{% endif %}#{{ htmlID }}"{% endcapture %}
 
             {% if include.anchor_class %}
-                {% capture anchorAttributes %}{{ anchorAttributes }} class="{{ include.anchor_class | split: '.' | join: ' ' }}"{% endcapture %}
+                <!-- by @ohno --> {% capture anchorAttributes %}{{ anchorAttributes }} class="{{ listItemClass }} {{ include.anchor_class | split: '.' | join: ' ' }}"{% endcapture %}
+                <!-- by @ohno --> {% comment %} {% capture anchorAttributes %}{{ anchorAttributes }} class="{{ include.anchor_class | split: '.' | join: ' ' }}"{% endcapture %} {% endcomment %}
             {% endif %}
 
-            <!-- by @ohno -->
-            {% capture listItem %}<a{{ anchorAttributes }}>{{ anchorBody }}aaa</a>{% endcapture %}
+            {% capture listItem %}<a{{ anchorAttributes }}>{{ anchorBody }}</a>{% endcapture %}
         {% elsif skipNoIDs == true %}
             {% continue %}
         {% else %}
@@ -143,20 +143,21 @@
         {% endif %}
 
         {% if currLevel > lastLevel and flatToc == false %}
-            <!-- by @ohno -->
+            <!-- by @ohno --> {% comment %} {% capture jekyll_toc %}{{ jekyll_toc }}<{{ listModifier }}{{ subMenuClass }}>{% endcapture %} {% endcomment %}
         {% elsif currLevel < lastLevel and flatToc == false %}
             {% assign repeatCount = lastLevel | minus: currLevel %}
 
             {% for i in (1..repeatCount) %}
-                <!-- by @ohno -->
+                <!-- by @ohno --> {% comment %} {% capture jekyll_toc %}{{ jekyll_toc }}</li></{{ listModifier }}>{% endcapture %} {% endcomment %}
             {% endfor %}
 
-            <!-- by @ohno -->
+            <!-- by @ohno --> {% comment %} {% capture jekyll_toc %}{{ jekyll_toc }}</li>{% endcapture %} {% endcomment %}
         {% else %}
-            <!-- by @ohno -->
+            <!-- by @ohno --> {% comment %} {% capture jekyll_toc %}{{ jekyll_toc }}</li>{% endcapture %} {% endcomment %}
         {% endif %}
 
-        <!-- by @ohno -->
+        <!-- by @ohno --> {% capture jekyll_toc %}{{ jekyll_toc }}{{ listItem }}{% endcapture %}
+        <!-- by @ohno --> {% comment %} {% capture jekyll_toc %}{{ jekyll_toc }}<li{{ listItemClass }}>{{ listItem }}{% endcapture %} {% endcomment %}
 
         {% assign lastLevel = currLevel %}
         {% assign firstHeader = false %}
@@ -170,7 +171,7 @@
     {% endif %}
 
     {% for i in (1..repeatCount) %}
-        <!-- by @ohno -->
+        <!-- by @ohno --> {% comment %} {% capture jekyll_toc %}{{ jekyll_toc }}</li></{{ listModifier }}>{% endcapture %} {% endcomment %}
     {% endfor %}
 
     {% if jekyll_toc != '' %}
@@ -185,7 +186,7 @@
 
         {% if rootAttributes %}
             {% assign nodes = jekyll_toc | split: '>' %}
-            <!-- by @ohno -->
+            <!-- by @ohno --> {% capture jekyll_toc %}<{{ listModifier }}{{ rootAttributes }}>{{ nodes | shift | join: '>' }}>{% endcapture %}
         {% endif %}
     {% endif %}
 {% endcapture %}{% assign tocWorkspace = '' %}{{ deprecation_warnings }}{{ jekyll_toc -}}
