@@ -2,7 +2,7 @@
 remote_theme: "jeffreytse/jekyll-theme-yat"
 
 # https://github.com/jeffreytse/jekyll-theme-yat/blob/master/_config.yml
-title: Title
+title: This is draft!
 email: ohno.github@gmail.com
 author: Shuhei Ohno
 copyright: "© 2024-{currentYear} {author}"
