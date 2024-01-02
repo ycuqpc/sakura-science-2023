@@ -59,7 +59,7 @@ The presenters with odd numbers will have poster presentations first half, and t
 
 [Kanazawa-Hakkei Campus of Yokohama City University](https://goo.gl/maps/UwE5dQeStBsi8jVu5) is a 5-minutes walk from [Kanazawa-Hakkei Station](https://maps.app.goo.gl/mWU5TP94mPia5UZX8) of [Keikyu line](https://www.haneda-tokyo-access.com/en/).
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13019.591406458434!2d139.5989118!3d35.333358!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601843fd143d2285%3A0xa2bfcf87b9aac00d!2sYokohama%20City%20University%20Kanazawa-Hakkei%20Campus!5e0!3m2!1sen!2sjp!4v1704183177009!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13019.591406458434!2d139.5989118!3d35.333358!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601843fd143d2285%3A0xa2bfcf87b9aac00d!2sYokohama%20City%20University%20Kanazawa-Hakkei%20Campus!5e0!3m2!1sen!2sjp!4v1704183177009!5m2!1sen!2sjp" width="600" height="450" style="border:0;margin-bottom:30px; max-width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ## Organizers
 
