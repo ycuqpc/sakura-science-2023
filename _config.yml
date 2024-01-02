@@ -3,8 +3,8 @@ remote_theme: "jeffreytse/jekyll-theme-yat"
 
 # https://github.com/jeffreytse/jekyll-theme-yat/blob/master/_config.yml
 title: This is draft!
-email: ohno.github@gmail.com
-author: Shuhei Ohno
+email: 
+author: Quantum Physical Chemistry Laboratory, Yokohama City University
 copyright: "© 2024-{currentYear} {author}"
 description: "description description description description description description description description description description"
 favicon: "./favicon.svg"
@@ -14,7 +14,7 @@ brand_color: "#8FC231"
 defaults:
   home:
     heading: "International Workshop on Theoretical and Computational Chemistry 2024"
-    subheading: "📅 January XXth, 2024<br>🚩 Kanazawa-Hakkei Campus, Yokohama City University"
+    subheading: "January XXth, 2024 at Kanazawa-Hakkei Campus, Yokohama City University"
     banner: "./home.jpg" # https://www.yokohama-cu.ac.jp/brandguide/materialdata/photodata/index.html
 
 banner:
