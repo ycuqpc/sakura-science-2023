@@ -1,3 +1,11 @@
 table td {
 	vertical-align: top;
 }
+
+.page-banner .page-banner-img {
+	filter: contrast(0.88);
+}
+
+html[data-scroll-status='top'] header.site-header-transparent {
+	text-shadow: 1px 1px 2px #33333355;
+}
