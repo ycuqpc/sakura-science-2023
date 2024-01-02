@@ -1,39 +1,70 @@
-# URL
+Recovering from the pandemic, the international exchange reboots. We hold XX workshop in Kanazawa-Hakkei Campus of Yokohama City University on January XXth, 2024. This event will have both oral and poster presentations by students from Graduate School of Nanobioscience at Yokohama City University (YCU), and _other school names_. We hope the strong interaction between students from various countries.
 
-- Pages  [https://ohno.github.io/jekyll-example/](https://ohno.github.io/jekyll-example/)
-- GitHub [https://github.com/ohno/jekyll-example/](https://github.com/ohno/jekyll-example)
+Sincerely,
+Organizing committee of XXX workshop
 
-# Themes
+# Registration & Submittion
 
-| Example | GitHub |
-| ------- | ------ |
-| [YAT](https://jeffreytse.github.io/jekyll-theme-yat/) (Active)      | [🔗](https://github.com/jeffreytse/jekyll-theme-yat/)      |
-| [cayman](https://pages-themes.github.io/cayman/)                    | [🔗](https://github.com/pages-themes/cayman)               |
-| [hanuman](https://samanyougarg.github.io/hanuman/)                  | [🔗](https://github.com/samanyougarg/hanuman/)             |
-| [agency-jekyll-theme](https://y7kim.github.io/agency-jekyll-theme/) | [🔗](https://github.com/y7kim/agency-jekyll-theme)         |
-| [jekyll-for-everyone](https://jekyll-for-everyone.github.io/)       | [🔗](https://github.com/melvinchng/jekyll-for-everyone)    |
-| [Prologue](https://chrisbobbe.github.io/jekyll-theme-prologue/)     | [🔗](https://github.com/chrisbobbe/jekyll-theme-prologue/) |
-| [A.P](https://www.kssim.com/ap/)                                    | [🔗](https://github.com/kssim/ap)                          |
+| Date | ToDo |
+| :--- | :--- |
+| January XXth | Deadline for Registration <br> https://forms.office.com/ |
+| January XXth | Deadline for Submission of Titles <br> https://forms.office.com/ |
 
-# Markdown
+# Invited speakers
 
-text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+__Wednesday, January XXth, 2024__
+- Prof. John Doe from [YCU](https://www-user.yokohama-cu.ac.jp/~tachi/member.html)
+- Prof. John Doe from [YCU](https://www-user.yokohama-cu.ac.jp/~tachi/member.html)
 
-- a
-- b
-- c
+__Wednesday, January XXth, 2024__
+- Prof. John Doe from [YCU](https://www-user.yokohama-cu.ac.jp/~tachi/member.html)
+- Prof. John Doe from [YCU](https://www-user.yokohama-cu.ac.jp/~tachi/member.html)
 
-| AAA | BBB |
+# Program
+
+| Start | End   | Speaker | Title |
+| :---: | :---: | :------ | :---- |
+| 13:30 | 13:50 | | **Registration** |
+| 13:50 | 14:00 | | **Opening remarks** by Prof. John Doe |
+| 14:00 | 14:30 | John Doe | New universality of the nuclear quantum effects in proton science |
+| 14:30 | 15:00 | John Doe | New universality of the nuclear quantum effects in proton science |
+| 15:00 | 15:20 | | **Coffee Break** |
+| 15:20 | 15:40 | John Doe | New universality of the nuclear quantum effects in proton science |
+| 15:40 | 16:00 | John Doe | New universality of the nuclear quantum effects in proton science |
+| 16:00 | 16:30 | | **Poster Session** (by speakers who have odd No.) |
+| 16:30 | 17:00 | | **Poster Session** (by speakers who have even No.) |
+| 17:00 | 17:20 | John Doe | New universality of the nuclear quantum effects in proton science |
+| 17:20 | 17:40 | John Doe | New universality of the nuclear quantum effects in proton science |
+| 17:40 | 17:50 | | **Closing remarks** by Prof. John Doe |
+| 17:50 | 18:00 | | **Award ceremony** by Prof. John Doe |
+| 18:30 | 21:00 | | **Banquet** at _Ristorante Prima Stella_ |
+
+# Poster Session
+
+| No. | Name | Title |
+| :-- | :--- | :---- | 
+| 1 | John Doe | New universality of the nuclear quantum effects in proton science | 
+| 2 | John Doe | New universality of the nuclear quantum effects in proton science |
+| 3 | John Doe | New universality of the nuclear quantum effects in proton science |
+| 4 | John Doe | New universality of the nuclear quantum effects in proton science |
+| 5 | John Doe | New universality of the nuclear quantum effects in proton science |
+
+# Directions
+
+|||
 | --- | --- |
-| aaa | bbb |
-| aaa | bbb |
-| aaa | bbb |
-| aaa | bbb |
+| 🚩 Venue | Kanazawa-Hakkei Campus, Yokohama City University |
+| 📪 Adress | [22-2 Seto, Kanazawa-ku, Yokohama 236-0027 JAPAN](https://goo.gl/maps/UwE5dQeStBsi8jVu5) |
+| 🚃 Closest Sta. | 5 min. walk from [Kanazawa-Hakkei Station](https://maps.app.goo.gl/mWU5TP94mPia5UZX8) of [Keikyu line](https://www.haneda-tokyo-access.com/en/)|
 
-> text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13019.591406458434!2d139.5989118!3d35.333358!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601843fd143d2285%3A0xa2bfcf87b9aac00d!2sYokohama%20City%20University%20Kanazawa-Hakkei%20Campus!5e0!3m2!1sen!2sjp!4v1704183177009!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-```julia:example
-println("Hello World!")
-```
+# Organizers
 
-![](./favicon.svg)
+- Prof. John Doe from [YCU](https://www-user.yokohama-cu.ac.jp/~tachi/member.html)
+- Prof. John Doe from [YCU](https://www-user.yokohama-cu.ac.jp/~tachi/member.html)
+- Prof. John Doe from [YCU](https://www-user.yokohama-cu.ac.jp/~tachi/member.html)
+
+# Acknowledgment
+
+This project was supported by the XXX.
