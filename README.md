@@ -32,20 +32,18 @@ Wednesday, January XXth, 2024
 
 Meet the invited speakers:
 
-### __Prof. John Doe__ from [YCU](https://www-user.yokohama-cu.ac.jp/~tachi/member.html)
+- __Prof. John Doe__ from [YCU](https://www-user.yokohama-cu.ac.jp/~tachi/member.html)
+  <br>His specialty is the development of ab initio calculation methods and application to hydrogen compounds. He will give a lecture on recent progress.
 
-His specialty is the development of ab initio calculation methods and application to hydrogen compounds. He will give a lecture on recent progress.
-
-### __Prof. John Doe__ from [YCU](https://www-user.yokohama-cu.ac.jp/~tachi/member.html)
-
-His specialty is the development of ab initio calculation methods and application to hydrogen compounds. He will give a lecture on recent progress.
+- __Prof. John Doe__ from [YCU](https://www-user.yokohama-cu.ac.jp/~tachi/member.html)
+  <br>His specialty is the development of ab initio calculation methods and application to hydrogen compounds. He will give a lecture on recent progress.
 
 # Poster Session
 
 The presenters with odd numbers will have poster presentations first half, and those with even numbers second half. Each poster board is 90cm x 120cm (width x height).
 
 | No. | Name | Title |
-| :- | :--- | :---- |
+| :-- | :--- | :---- |
 |  1 | John Doe | New universality of the nuclear quantum effects in proton science |
 |  2 | John Doe | New universality of the nuclear quantum effects in proton science |
 |  3 | John Doe | New universality of the nuclear quantum effects in proton science |
