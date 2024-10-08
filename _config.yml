@@ -1,5 +1,7 @@
 # https://chirimenmonster.github.io/2021/06/29/jekyll-remote-theme.html
 plugins:
+  - jekyll-theme-yat
+  - jekyll-sass-converter
   - jekyll-remote-theme
 
 # https://github.com/jeffreytse/jekyll-theme-yat/?tab=readme-ov-file#remote-theme-method-with-github-pages
