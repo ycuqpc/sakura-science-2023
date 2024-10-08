@@ -1,12 +1,5 @@
 Recovering from the pandemic, the international exchange reboots. We hold XX workshop in Kanazawa-Hakkei Campus of Yokohama City University on January XXth, 2024. This event will have both oral and poster presentations by students from Graduate School of Nanobioscience at Yokohama City University (YCU), and _other school names_. We hope the strong interaction between students from various countries.
 
-# What's New
-
-| Date | News |
-| :--- | :--- |
-| January XXth | The program was updated. |
-| January XXth | This website was opened. |
-
 # Registration
 
 | Date | ToDo |
