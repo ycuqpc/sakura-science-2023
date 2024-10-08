@@ -9,7 +9,7 @@ Recovering from the pandemic, the international exchange reboots. We hold XX wor
 
 # Program
 
-Wednesday, January XXth, 2024
+Wednesday, January XXth, 2024.
 
 | Start | End   | Speaker | Title |
 | :---: | :---: | :------ | :---- |
